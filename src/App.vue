@@ -1,19 +1,20 @@
 <template>
   <v-app>
     <v-content>
-      <Home/>
+      <Join/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Home from './components/Home';
+import Join from "./components/member/Join";
+
 
 export default {
-  name: 'App',
+
 
   components: {
-    Home,
+    Join,
   },
 
   data: () => ({
